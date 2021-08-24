@@ -22,7 +22,8 @@
                             {!! Form::close() !!}
                         @endif
                     </div>
-                </div>
+                    {{-- いいね／アンいいねボタン --}}
+                    @include('favorites.favorite_button')
             </li>
         @endforeach
     </ul>
